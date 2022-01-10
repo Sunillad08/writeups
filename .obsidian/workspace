@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "9f8a4af1143efe51",
+    "type": "split",
+    "children": [
+      {
+        "id": "534fb9a98e414168",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tryhackme/Bounty Hacker/Bounty Hacker.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8fb9dc69b2775790",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fd2069dda1396cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de8478851bdb3ffc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3fc8dc075dd25cc6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e29a6ca6f6d6b543",
+    "type": "split",
+    "children": [
+      {
+        "id": "43a22adff35e7f37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "317910e4e70a5ca4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tryhackme/Bounty Hacker/Bounty Hacker.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "534fb9a98e414168",
+  "lastOpenFiles": [
+    "Tryhackme/Bounty Hacker/Bounty Hacker.md",
+    "Tryhackme/Bounty Hacker/images.png",
+    "Tryhackme/Bounty Hacker/hydra.png",
+    "Tryhackme/Bounty Hacker/gobuster.png",
+    "Tryhackme/Bounty Hacker/nmap result.png",
+    "Tryhackme/Easy Peasy/Screenshot (85).png",
+    "Tryhackme/Easy Peasy/Screenshot (84).png",
+    "Tryhackme/Easy Peasy/Screenshot (83).png",
+    "Tryhackme/Easy Peasy/Easy Peasy.md",
+    "Tryhackme/Tryhackme.md"
+  ]
+}
