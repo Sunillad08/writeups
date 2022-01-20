@@ -8,3 +8,4 @@
 - [Basic Pentesting](Basic%20Pentesting/Basic%20Pentesting.md)
 - [Bounty Hacker](Bounty%20Hacker/Bounty%20Hacker.md)
 - [Agent sudo](Agent%20sudo/Agent%20sudo.md)
+- [Brute It](Brute%20It/Brute%20It.md)
