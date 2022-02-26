@@ -29,7 +29,7 @@ Here is RSA private key.
 
 Getting hash from rsa key.
 
-![ssh2john](ssh2john.png)
+![ssh2john](../Wgel/ssh2john.png)
 
 Cracking hash we got from rsa_id using john.
 
@@ -48,17 +48,17 @@ Tried loggin in with rsa id but failed.
 
 Changing permission gave us ssh shell.
 
-![ssh login](ssh%20login.png)
+![ssh login](../Wonderland/ssh%20login.png)
 
 Got user flag.
 
-![User flag](User%20flag.png)
+![User flag](../Wonderland/user%20flag.png)
 
 Got the root flag by exploiting sudo priveleges for cat command.
 
 ![gtfobins cat](gtfobins%20cat.png)
 
-![Root flag](root%20flag.png)
+![Root flag](../Wgel/root%20flag.png)
 
 Although I got root flag , room demand us to brute force root password.
 So I got contents of /etc/shadow and /etc/passwd to my machine. Unshadowed it and tried cracking root password. Surprisingly I got root password.

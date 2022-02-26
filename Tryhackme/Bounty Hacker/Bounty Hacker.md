@@ -57,7 +57,7 @@ Login SSH , found that user flag was directly located on home path.
 ## User flag
 Got user flag easily.
 
-![user flag](user%20flag.png)
+![user flag](../Wonderland/user%20flag.png)
 - --
 ## Root flag
 Checked sudo permission for user and tar has sudo permission
@@ -68,7 +68,7 @@ Cheking [gtfobins](https://gtfobins.github.io/gtfobins/tar/#sudo) showed tar exp
 Using this gave root permission.
 Found root flag.
 
-![root flag](root%20flag.png)
+![root flag](../Wgel/root%20flag.png)
 
 - --
 > Note :

@@ -1,5 +1,5 @@
 # Simple CTF
-[Tryhackme](Tryhackme.md)
+[Tryhackme](../Tryhackme.md)
 - --
 ## Enumeration
 Started emunerating using nmap.
@@ -45,14 +45,14 @@ Note : Script didn't work becuase of my python version. So I checked through wal
 ## User flag
 Got user flag.
 
-![user flag](user%20flag.png)
+![user flag](../Wonderland/user%20flag.png)
 - --
 ## Root flag
 User had sudo privelege for vim.
 
 ![gtfobins vim](gtfobins%20vim.png)
 
-![root flag](root%20flag.png)
+![root flag](../Wgel/root%20flag.png)
 
 - --
 ### Source 

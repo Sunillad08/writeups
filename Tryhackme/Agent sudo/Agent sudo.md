@@ -76,7 +76,7 @@ This ofcourse points to SSH login.
 ## Getting flags
 Logging into SSH using james credentials gave command execution.
 
-![user flag](user%20flag.png)
+![user flag](../Wonderland/user%20flag.png)
 
 For root access , we had to exploit sudo version.
 

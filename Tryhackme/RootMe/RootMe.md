@@ -4,7 +4,7 @@
 ## Enumeration
 Using Nmap , we got there are 2 open ports.
 
-![nmap scan|700](nmap%20scan.png)
+![nmap scan|700](../Wgel/nmap%20scan.png)
 - --
 ## Website
 ![Website](Website.png)
@@ -47,7 +47,7 @@ But surprisingly , I got reverse shell.
 ## User flag
 Found User flag.
 
-![user flag](user%20flag.png)
+![user flag](../Wonderland/user%20flag.png)
 
 - --
 ## SUID explotation
@@ -65,7 +65,7 @@ I got root access.
 - --
 ## Root flag
 
-![root flag](root%20flag.png)
+![root flag](../Wgel/root%20flag.png)
 
 - --
 ### Source

@@ -35,14 +35,14 @@ Searched about how to bruteforce ssh password
 ## flag finding
 By login into ssh  , found user flag
 
-![user flag](user%20flag.png)
+![user flag](../Wonderland/user%20flag.png)
 
 Didn't understood how to find root access go googled about room
 [Room walkthrough](https://musyokaian.medium.com/brooklyn-nine-nine-walkthrough-tryhackme-8c3c5791d6b7)
 
 Got it how to do privilege escalation with [cheatsheet](https://gtfobins.github.io/gtfobins/less/#sudo)
 
-![root flag](root%20flag.png)
+![root flag](../Wgel/root%20flag.png)
 
 - --
 Done with my first machine! 
