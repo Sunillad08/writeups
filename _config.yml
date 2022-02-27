@@ -13,3 +13,4 @@ relative_links:
 include:
   - index.md
   - Tryhackme
+theme: jekyll-theme-hacker
