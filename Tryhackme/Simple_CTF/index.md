@@ -1,5 +1,5 @@
 # Simple CTF
-[index](../index.md)
+[Back to Tryhackme page](../index.md)
 - --
 ## Enumeration
 Started emunerating using nmap.
