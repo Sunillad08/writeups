@@ -1,5 +1,5 @@
 # Baseurl
-baseurl: "Cyber-reports"
+baseurl: "cyber-reports"
 
 # Build settigs
 markdown: kramdown
