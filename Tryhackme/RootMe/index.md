@@ -1,5 +1,5 @@
 # RootMe
-[Backt to Tryhackme page](../Tryhackme.md)
+[Backt to Tryhackme page](../index.md)
 - --
 ## Enumeration
 Using Nmap , we got there are 2 open ports.

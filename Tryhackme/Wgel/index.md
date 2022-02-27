@@ -1,5 +1,5 @@
 # Wgel
-[Back to tryhackme page](../Tryhackme.md)
+[Back to tryhackme page](../index.md)
 - --
 ## Enumeration
 As always , will start with nmap scan.

@@ -1,5 +1,5 @@
 # Brute It
-[Back to tryhackme page](../Tryhackme.md)
+[Back to tryhackme page](../index.md)
 - --
 ## Enumeration
 Started enumerating machine using nmap. Found 2 open port with ssh and http services running.

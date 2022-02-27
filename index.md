@@ -1,4 +1,4 @@
 # Index
 - --
-## Tryhackme : [Tryhackme](Tryhackme/Tryhackme.md)
-## Hackthebox : [Hackthebox](Hackthebox/Hackthebox.md)
+## Tryhackme : [TryHackMe](Tryhackme/index.md)
+## Hackthebox : [HackTheBox](Hackthebox/index.md)

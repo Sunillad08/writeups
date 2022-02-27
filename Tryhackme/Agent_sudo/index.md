@@ -1,5 +1,5 @@
 # Agent sudo
-[Back to tryhackme page](../Tryhackme.md)
+[Back to tryhackme page](../index.md)
 - --
 ## Enumeration
 Started enumerating machine using Nmap.

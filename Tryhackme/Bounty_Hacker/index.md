@@ -1,5 +1,5 @@
 # Bounty Hacker
-[Back to Tryhackme page](../Tryhackme.md)
+[Back to Tryhackme page](../index.md)
 - --
 ## Starting point
 [Bounty hacker](https://tryhackme.com/room/cowboyhacker) is [tryhackme](https://tryhackme.com) room. Room has tags of linux , tar , privesc and security.

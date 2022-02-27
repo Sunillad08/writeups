@@ -1,5 +1,5 @@
 # LazyAdmin
-[Back to tryhackme page](../Tryhackme.md)
+[Back to tryhackme page](../index.md)
 - --
 ## Enumeration
 Starting with nmap scan. 
@@ -79,7 +79,7 @@ So updated code in /etc/copy.sh to reverse shell to me.
 
 ![reverse shell again](setting%20up%20perl%20reverse%20shell.png)
 
-Running backup.pl file gave error for sometime and it gave reverse shell but not with root priviledge. Checkin another [writeup](https://www.aldeid.com/wiki/CTF-TryHackMe-LazyAdmin) , I ran sudo perl with full path gave me root reverse shell.
+Running backup.pl file gave error for sometime and it gave reverse shell but not with root priviledge. Checking another [writeup](https://www.aldeid.com/wiki/CTF-TryHackMe-LazyAdmin) , I ran sudo perl with full path gave me root reverse shell.
 
 ![sudo reverse shell](sudo%20reverse%20shell.png)
 

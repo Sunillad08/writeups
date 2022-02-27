@@ -1,5 +1,5 @@
 # Team
-[back to tryhackme page](../Tryhackme.md)
+[back to tryhackme page](../index.md)
 - --
 ## Targets
 Machine

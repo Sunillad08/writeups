@@ -1,5 +1,5 @@
 # Wonderland
-[Back to tryhackme page](../Tryhackme.md)
+[Back to tryhackme page](../index.md)
 - --
 ## Enumeration
 Started enumeration machine using nmap , found 2 open port with ssh and http services running.

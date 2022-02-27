@@ -1,5 +1,5 @@
 # Brooklyn Nine Nine
-[Back to Tryhackme page](../Tryhackme.md)
+[Back to Tryhackme page](../index.md)
 - --
 ## Enumeration
 Started nmap service scan on given ip
