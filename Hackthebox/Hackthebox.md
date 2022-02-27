@@ -1,4 +1,4 @@
 # Hackthebox
-[Back to Index page](../Index.md)
+[Back to Index page](../index.md)
 - --
 - [Pandora](Pandora/Pandora.md)

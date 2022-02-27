@@ -1,5 +1,5 @@
 # Tryhackme
-[Back to Index page](../Index.md)
+[Back to Index page](../index.md)
 - --
 - [Brooklyn Nine Nine](Brooklyn%20Nine%20Nine/Brooklyn%20Nine%20Nine.md)
 - [Pickel Rick](Pickel%20Rick/Pickel%20Rick.md)
