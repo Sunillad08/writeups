@@ -1,1 +1,6 @@
+title: "Infosec writeups"
+
+baseurl: "cyber-report"
+
+# Build settigs
 markdown: kramdown
