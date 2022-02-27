@@ -11,3 +11,4 @@
 - [Brute It](Brute%20It/Brute%20It.md)
 - [Wgel](Wgel/Wgel.md)
 - [CC Pentesting](CC%20Pentesting/CC%20Pentesting.md)
+- [LazyAdmin](LazyAdmin/LazyAdmin.md)

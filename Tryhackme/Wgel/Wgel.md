@@ -56,7 +56,7 @@ find / -type f -name *.txt 2>/dev/null
 ```
 This gives us flag location.
 
-![user flag](user%20flag.png)
+![user flag](../LazyAdmin/user%20flag.png)
 
 - --
 ## Root flag
