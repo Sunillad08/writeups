@@ -1,6 +1,14 @@
-title: "Infosec writeups"
-
-baseurl: "cyber-reports"
+# Baseurl
+baseurl: "Cyber-reports"
 
 # Build settigs
 markdown: kramdown
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
+  - Tryhackme
