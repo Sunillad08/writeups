@@ -1,6 +1,8 @@
 # Brute It
 [Back to tryhackme page](../index.md)
-- --
+
+---
+
 ## Enumeration
 Started enumerating machine using nmap. Found 2 open port with ssh and http services running.
 
@@ -13,7 +15,8 @@ Admin page is login form for admin login.
 
 ![admin login page](admin%20login%20page.png)
 
-- --
+---
+
 ## Bruteforcing 
 Starting bruteforce attack on admin login page with hydra.
 
@@ -37,7 +40,8 @@ Cracking hash we got from rsa_id using john.
 
 We got the passphrase for ssh login. Passphrase is "rockinroll".
 
-- --
+---
+
 ## Login from SSH
 Tried loggin in with rsa id but failed.
 
@@ -48,23 +52,24 @@ Tried loggin in with rsa id but failed.
 
 Changing permission gave us ssh shell.
 
-![ssh login](../Wonderland/ssh%20login.png)
+![ssh login](ssh%20login.png)
 
 Got user flag.
 
-![User flag](../Wonderland/user%20flag.png)
+![User flag](user%20flag.png)
 
 Got the root flag by exploiting sudo priveleges for cat command.
 
 ![gtfobins cat](gtfobins%20cat.png)
 
-![Root flag](../Wgel/root%20flag.png)
+![Root flag](root%20flag.png)
 
 Although I got root flag , room demand us to brute force root password.
 So I got contents of /etc/shadow and /etc/passwd to my machine. Unshadowed it and tried cracking root password. Surprisingly I got root password.
 
 ![root password cracking](root%20password%20cracking.png)
 
-- --
+---
+
 ### Source
 - [Tryhackme room](https://tryhackme.com/room/bruteit)

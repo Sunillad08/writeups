@@ -1,13 +1,17 @@
 # LazyAdmin
 [Back to tryhackme page](../index.md)
-- --
+
+---
+
 ## Enumeration
 Starting with nmap scan. 
 
 ![nmap scan](nmap%20scan.png)
 
 So there are only 2 open ports i.e. HTTP and SSH. So let's first focus on HTTP.
-- --
+
+---
+
 ## Directory enumeration
 Now let's start directory enumeration using gobuster.
 
@@ -27,7 +31,8 @@ Enumerating /content further gives many more directories.
 
 ![mysql backup](content%20inc.png)
 
-- --
+---
+
 ## mysql backup
 Downloading file and reading it gives us clue.
 
@@ -46,7 +51,9 @@ It's an md5 hash so cracking it with john the ripper.
 ![Hash cracking](hash%20cracking%20john.png)
 
 So username is manager and password is Password123. Let's check for any possible exploit for sweetrice framework.
-- --
+
+---
+
 ## Reverse shell
 Searching sweetrice on exploit-db gave us [Unrestricted File Upload exploit](https://www.exploit-db.com/exploits/40716).
 
@@ -65,7 +72,9 @@ To run exploit I visited link ```http://$ip/content/inc/ads/shell.php```.
 ![reverse shell](reverse%20shell.png)
 
 Got reverse shell here.
-- --
+
+---
+
 ## Getting flags
 
 Got User flag in home directory.
@@ -87,7 +96,8 @@ Got root flag!!!
 
 ![root flag](root%20flag.png)
 
-- --
+---
+
 ### Source :
 - [LazyAdmin room](https://tryhackme.com/room/lazyadmin)
 - [Writeup 1](https://medium.com/techiepedia/tryhackme-lazy-admin-walkthrough-afe42873e233)

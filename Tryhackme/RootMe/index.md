@@ -1,12 +1,17 @@
 # RootMe
 [Backt to Tryhackme page](../index.md)
-- --
+
+---
+
 ## Enumeration
 Using Nmap , we got there are 2 open ports.
 
-![nmap scan|700](../Wgel/nmap%20scan.png)
-- --
+![nmap scan](nmap%20scan.png)
+
+---
+
 ## Website
+
 ![Website](Website.png)
 
 Doesn't have any hiddent details. Although PHPSESSID is shown indicating PHP is used in backend.
@@ -17,7 +22,9 @@ Panel shows form to upload file.
 Uploads shows files uploaded from panels form.
 
 ![gobuster](gobuster.png)
-- --
+
+---
+
 ## PHP Reverse shell 
 Panel can be used to upload file so I cloned [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell) repository. 
 
@@ -33,7 +40,9 @@ Googled how to bypass php and found this on [website](https://vulp3cula.gitbook.
 Changing .php to .phtml bypassed.
 
 ![phtml accepted](phtml%20accepted.png)
-- --
+
+---
+
 ## Shell access
 Tried running file from opening it through uploads directory.
 It gave error.
@@ -47,7 +56,7 @@ But surprisingly , I got reverse shell.
 ## User flag
 Found User flag.
 
-![user flag](../Wonderland/user%20flag.png)
+![user flag](user%20flag.png)
 
 - --
 ## SUID explotation
@@ -65,7 +74,7 @@ I got root access.
 - --
 ## Root flag
 
-![root flag](../Wgel/root%20flag.png)
+![user flag](user%20flag.png)
 
 - --
 ### Source

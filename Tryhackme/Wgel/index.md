@@ -1,6 +1,8 @@
 # Wgel
 [Back to tryhackme page](../index.md)
-- --
+
+---
+
 ## Enumeration
 As always , will start with nmap scan.
 
@@ -17,7 +19,9 @@ sitemap is one of the interesting directory , let's look further into it.
 ![Gobuster sitemap](Gobuster%202.png)
 
 Sitemap has directory called .ssh. This is going to be interesting.
-- --
+
+---
+
 ## Getting id_rsa
 Checking .ssh directory gives up id_rsa i.e. private key. Now let's check it further.
 
@@ -27,7 +31,8 @@ Downloding this key using wget.
 
 ![id_rsa](id_rsa.png)
 
-- --
+---
+
 ## Solving id_rsa
 Now quick googling refreshes memory of using ssh2john. Getting hash from id_rsa.
 
@@ -46,7 +51,8 @@ Logged in into SSH using id_rsa.
 
 ![ssh login](ssh%20login.png)
 
-- --
+---
+
 ## User flag
 Lates check user flag first.
 Tried searching many combinations of user.txt , user* but didn't get any result.
@@ -56,9 +62,10 @@ find / -type f -name *.txt 2>/dev/null
 ```
 This gives us flag location.
 
-![user flag](../LazyAdmin/user%20flag.png)
+![user flag](user%20flag.png)
 
-- --
+---
+
 ## Root flag
 Now let's search for root flag.
 
@@ -76,13 +83,14 @@ Got root flag here!
 
 ![root flag](root%20flag.png)
 
-- --
+---
 
 > Thing learnt :
 > 1. Always check all sources and increase attack surface to get clues
 > 2. Google when you think it's error rather than genuine output
 
-- --
+---
+
 ### Source
 - [Tryhackme wgel](https://tryhackme.com/room/wgelctf)
 - [Wgel walkthrough](https://yebberdog.medium.com/try-hack-me-wgel-walkthrough-e28b9e7a1d06)

@@ -1,6 +1,8 @@
 # Agent sudo
 [Back to tryhackme page](../index.md)
-- --
+
+---
+
 ## Enumeration
 Started enumerating machine using Nmap.
 
@@ -24,7 +26,8 @@ Next clue is revealed.
 
 ![Agent C website](Agent%20C%20website.png)
 
-- --
+---
+
 ## Bruteforcing and Steganography
 New user called "Chris"  comes into picture now. Also his password is weak. Room page give us hint to bruteforce FTP service. so "Hail Hydra"!! Using hydra tool , I was able to bruteforce into FTP service. "Crystal" is password.
 
@@ -72,11 +75,13 @@ Using this and checking walkthrough , I was able to get message from another pic
 
 Another user name "James" comes into picture with password already know.
 This ofcourse points to SSH login.
-- --
+
+---
+
 ## Getting flags
 Logging into SSH using james credentials gave command execution.
 
-![user flag](../Wonderland/user%20flag.png)
+![user flag](user%20flag.png)
 
 For root access , we had to exploit sudo version.
 
@@ -84,7 +89,8 @@ For root access , we had to exploit sudo version.
 
 Got all flags and completed machine
 
-- --
+---
+
 ### Source
 - [Walkthrough](https://infosecwriteups.com/agent-sudo-walkthrough-tryhackme-d0abf6f2c6a1)
 - [Tryhackme room](https://tryhackme.com/room/agentsudoctf)

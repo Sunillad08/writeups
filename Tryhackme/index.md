@@ -1,6 +1,8 @@
 # Tryhackme
 [Back to Index page](../index.md)
-- --
+
+---
+
 - [Brooklyn Nine Nine](Brooklyn_Nine_Nine/index.md)
 - [Pickel Rick](Pickel_Rick/index.md)
 - [RootMe](RootMe/index.md)
