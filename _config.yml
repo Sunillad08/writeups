@@ -1,6 +1,6 @@
-title: "Infosec writeups"
+title: "Writeups"
 # Baseurl
-baseurl: "infosec-writeups"
+baseurl: "writeups"
 
 # Build settigs
 markdown: kramdown
