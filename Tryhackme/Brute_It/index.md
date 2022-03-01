@@ -56,7 +56,7 @@ Changing permission gave us ssh shell.
 
 Got user flag.
 
-![User flag](user%20flag.png)
+![User flag](User%20flag.png)
 
 Got the root flag by exploiting sudo priveleges for cat command.
 
