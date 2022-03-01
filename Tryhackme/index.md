@@ -14,3 +14,6 @@
 - [Wgel](Wgel/index.md)
 - [CC Pentesting](CC_Pentesting/index.md)
 - [LazyAdmin](LazyAdmin/index.md)
+- [Startup](Startup/Startup.md)
+
+---
