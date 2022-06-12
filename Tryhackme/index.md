@@ -17,6 +17,7 @@
 - [RootMe](RootMe/index.md)
 - [Pickel Rick](Pickel_Rick/index.md)
 - [Brooklyn Nine Nine](Brooklyn_Nine_Nine/index.md)
-- [CyberHeros](CyberHeroes/index.md)
+- [CyberHeroes](CyberHeroes/index.md)
+- [Chocolate Factory](Chocolate_Factory/index.md)
 
 ---
