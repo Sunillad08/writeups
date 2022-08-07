@@ -3,6 +3,7 @@
 
 ---
 
+- [ColddBox Easy](ColddBox_Easy/index.md)
 - [h4cked](h4cked/index.md)
 - [Bolt](Bolt/index.md)
 - [Overpass 2](Overpass_2/index.md)
